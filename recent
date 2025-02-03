@@ -1,0 +1,26 @@
+<pre>
+[13:21:18] [IO-Worker-920/WARN] [minecraft/RegionFile]: Saving oversized chunk [
+18, 26] (1433139 bytes} to external file ./world/entities/c.18.26.mcc
+[13:23:11] [Server thread/WARN] [co.le.Leaky/]: Detected: 35120 stacked items at
+:[292, 46, 428] in minecraft:overworld
+[13:26:11] [Server thread/WARN] [co.le.Leaky/]: Detected: 35240 stacked items at
+:[292, 46, 428] in minecraft:overworld
+[13:26:18] [IO-Worker-923/WARN] [minecraft/RegionFile]: Saving oversized chunk [
+18, 26] (1441248 bytes} to external file ./world/entities/c.18.26.mcc
+[13:29:11] [Server thread/WARN] [co.le.Leaky/]: Detected: 35360 stacked items at
+:[292, 46, 428] in minecraft:overworld
+[13:30:01] [Server thread/INFO] [jecalculation/]: Failed to load default records
+ at /home/pseudo/minecraft/Epicserver/config/jecalculation/records.json.
+[13:30:01] [Server thread/INFO] [minecraft/PlayerList]: Pointyv3[/100.104.216.94
+:59910] logged in with entity id 535382 at (-330.760835565734, 64.0, 258.2165231
+521095)
+[13:30:01] [Server thread/INFO] [minecraft/MinecraftServer]: Pointyv3 joined the
+ game
+[13:31:18] [IO-Worker-925/WARN] [minecraft/RegionFile]: Saving oversized chunk [
+18, 26] (1449450 bytes} to external file ./world/entities/c.18.26.mcc
+[13:32:11] [Server thread/WARN] [co.le.Leaky/]: Detected: 35480 stacked items at
+:[292, 46, 428] in minecraft:overworld
+[13:32:23] [Server thread/INFO] [minecraft/MinecraftServer]: [Pointyv3: Teleport
+ed Pointyv3 to 292.500000, 46.000000, 428.500000]
+>
+</pre>

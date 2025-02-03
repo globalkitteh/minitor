@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mulberry | Server Management</title>
+        <script>
+            function restartSrv() {
+                fetch('/restart-server', { method: 'POST' })
+                    .then(response => response.text())
+                    .then(data => console.log(data))
+                    .catch(error => console.error('Error:', error));
+            }
+        </script>
+    </head>
+</html>
+<body>
+    <button onclick="restartSrv()">Start Server (if stopped)</button>
+    <h1>Server Log</h1>
+    <hr>
+    <button onclick="var ifr=document.getElementsByName('ServerLog')[0]; ifr.src=ifr.src;">Refresh Log</button><br>
+    <iframe name="ServerLog" height="550" width="1500" src="/history"></iframe>
+</body>
