@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>mulberry | Server Management</title>
-        <script>
-            function restartSrv() {
-                fetch('/restart-server', { method: 'POST' })
-                    .then(response => response.text())
-                    .then(data => console.log(data))
-                    .catch(error => console.error('Error:', error));
-            }
-        </script>
-    </head>
+
+<head>
+    <title>mulberry | Server Management</title>
+    <script>
+        function restartSrv() {
+            fetch('/restart-server', { method: 'POST' })
+                .then(response => response.text())
+                .then(data => console.log(data))
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+</head>
+
 </html>
+
 <body>
+    <h1>Server Controls</h1>
+    <hr>
     <button onclick="restartSrv()">Start Server (if stopped)</button>
+
     <h1>Server Log</h1>
     <hr>
     <button onclick="var ifr=document.getElementsByName('ServerLog')[0]; ifr.src=ifr.src;">Refresh Log</button><br>
     <iframe name="ServerLog" height="550" width="1500" src="/history"></iframe>
+
+    <h1>Server Resources</h1>
+    <hr>
+    <a href="./files/modpack4.0.zip">Download Modpack 4.0 | 2024-12-10</a>
 </body>

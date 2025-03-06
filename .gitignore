@@ -1,5 +1,7 @@
-# Logs
 recent
+files/
+
+# Logs
 logs
 *.log
 npm-debug.log*
